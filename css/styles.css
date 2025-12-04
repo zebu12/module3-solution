@@ -1,0 +1,41 @@
+body{ 
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+#header-nav{
+    background-color:#007aff;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand h1{
+    font-family: 'Lora' serif;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+
+#nav-list { /* Navigation Menu */
+    margin-top: 10px;
+}
+#nav-list a {   /* Navigation Menu Links */
+    color: whitesmoke;
+    text-align: center;
+    
+}
+#nav-list a:hover { /* Navigation Menu Links Hover */
+    background: #222;
+}
+
+.navbar-toggler:hover { /* Navbar Toggle Button */
+    background: whitesmoke;
+}
